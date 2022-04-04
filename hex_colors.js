@@ -6,9 +6,9 @@ const color = document.querySelector('.color');
 btn.addEventListener("click", myFunction)
 
 function myFunction() {
-     let hexColor = "#";
+     let hexcolor = "#";
      for (let i = 0; i < 6; i++) {
-          hexColor += hex_colors[GetRnadomNumber()];
+          hexcolor += hex_colors[GetRnadomNumber()];
      }
 
      document.body.style.backgroundColor = hexcolor;
